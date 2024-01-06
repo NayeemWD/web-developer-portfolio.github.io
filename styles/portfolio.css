@@ -1,0 +1,51 @@
+/* common shared front styles */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Loto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary_color{
+    color: #FD6E0A;
+}
+.but-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+nav button {
+        width: 150px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        color: #fff;
+        background: #FD6E0A;
+        border: 0px;
+        font-size: 20px;
+        font-weight: 700;
+
+ }
+.nav-title {
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
