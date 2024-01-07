@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* common shared front styles */
 body{
     font-family: 'Roboto', sans-serif;
@@ -11,6 +15,20 @@ body{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-descrition{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* nav related styles */
@@ -54,33 +72,72 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .beanner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
  }
- /*
+.beanner-content{
+    max-width: 550px;
+}
+
 .banner-greeting{
     color: #474747;
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 .banner-title{
     color: #181818;
     font-size: 45px;
     font-weight: 600;
+    margin-top: 15px;
 }
 .banner-par{
-    width: 585px;
+    /* width: 585px; */
     color: #757575;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 40px;
 }
-*/
+
 .beanner .profile-pic{
     width: 356px;
     /* height: 676px; */
     margin: 0px 0px 0px 180px;
+}
+
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.about-info{
+    text-align: center;
+    
+}
+.info-title{
+    margin-bottom: 10px;
 }
