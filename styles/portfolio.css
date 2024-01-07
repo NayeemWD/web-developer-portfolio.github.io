@@ -18,6 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 nav>ul{
     display: flex;
@@ -31,7 +32,7 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
-nav button {
+.btn-primary {
         width: 150px;
         height: 64px;
         flex-shrink: 0;
@@ -43,9 +44,43 @@ nav button {
         font-weight: 700;
 
  }
+
 .nav-title {
     color:#181818;
     font-size: 45px;
     font-weight: 800;
 }
 
+/* header related styles */
+.header{
+    background-color: #FFF8F3;;
+}
+.beanner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+ }
+ /*
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-par{
+    width: 585px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+*/
+.beanner .profile-pic{
+    width: 356px;
+    /* height: 676px; */
+    margin: 0px 0px 0px 180px;
+}
