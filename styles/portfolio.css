@@ -98,7 +98,7 @@ nav a{
     color: #181818;
     font-size: 45px;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 15px 0px 10px 0px;
 }
 .banner-par{
     /* width: 585px; */
@@ -121,8 +121,9 @@ nav a{
 
 .imges-dev{
     position: absolute;
-    height: 566px;
+    height: 541px;
     padding-left: 20px;
+    width: 75px;
 }
 /* main section styles */
 main{
@@ -135,7 +136,7 @@ main section{
 
 /* about section styles */
 .about{
-    padding: 130px;
+    padding: 50px 130px 130px 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
@@ -163,6 +164,7 @@ main section{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin-left: 130px;
 }
 
 .skills-contaoner{
