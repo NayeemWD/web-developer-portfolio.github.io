@@ -22,6 +22,7 @@ body{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin: 30px;
 }
 .section-descrition{
     color: #757575;
@@ -75,6 +76,7 @@ nav a{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    padding-top: 50px;
 }
 .beanner{
     padding: 30px 30px 0px 150px;
@@ -110,14 +112,25 @@ nav a{
 .beanner .profile-pic{
     width: 356px;
     /* height: 676px; */
-    margin: 0px 0px 0px 180px;
+    margin: 0px 130px 0px 0px;
 }
 
+#download-cv{
+    margin-right: 30px;
+}
 
+.imges-dev{
+    position: absolute;
+    height: 566px;
+    padding-left: 20px;
+}
 /* main section styles */
 main{
     max-width: 1140px;
     margin: 0px auto;
+}
+main section{
+    margin: 130px 0px;
 }
 
 /* about section styles */
@@ -169,3 +182,83 @@ main{
 margin: 30px 0px ;
 }
 
+/* resume section style */
+
+.resume-colum-title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 60px 0px 30px 0px;
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+    
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.resume-item-description{
+    width: 511px;
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+hr{
+    margin: 30px 0px;
+}
+#resume-cv-downlod{
+   text-align: center;
+   margin-top: 70px;
+}
+
+/* footer style  */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.Connect input[type="text"], .Connect input[type="email"], textarea{
+    display: block;
+    margin-bottom: 30px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border: 0px;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+}
+
+.section-description{
+    color:  #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 562px;
+    margin-bottom: 20px;
+}
+.sosal-links a{
+    margin-right: 10px;
+}
